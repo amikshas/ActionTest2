@@ -16,7 +16,7 @@ jobs:
      - name: Run a one-line script
        run: echo Hello, world! 
      
-     
-     - uses: amikshas/ActionTest1/.github/workflows/main.yml@main
-     - name: nexus deploy
+ nexus:    
+   uses: amikshas/ActionTest1/.github/workflows/main.yml@main
+    
  
