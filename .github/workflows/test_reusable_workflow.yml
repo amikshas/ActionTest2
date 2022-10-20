@@ -13,10 +13,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
      - uses: actions/checkout@v2
+     
      - name: Run a one-line script
        run: echo Hello, world! 
      
- nexus:    
-   uses: amikshas/ActionTest1/.github/workflows/main.yml@main
+     - name: nexus deployment  
+     - uses: amikshas/ActionTest1/.github/workflows/main.yml@main
     
  
