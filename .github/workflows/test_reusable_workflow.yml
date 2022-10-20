@@ -18,6 +18,6 @@ jobs:
        run: echo Hello, world! 
      
      - name: nexus deployment  
-     - uses: amikshas/ActionTest1/.github/workflows/main.yml@main
+       uses: amikshas/ActionTest1/.github/workflows/main.yml@main
     
  
