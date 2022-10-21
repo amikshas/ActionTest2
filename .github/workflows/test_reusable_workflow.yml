@@ -12,13 +12,12 @@ jobs:
  test_caller_job:
     runs-on: ubuntu-latest
     steps:
-     - name:  Build nexus container
-       id:  nexus
-       uses: amikshas/ActionTest1@main
-     
-     
+     - uses: actions/checkout@v2
      - name: Run a one-line script
        run: echo Hello, world! 
+      
+ nexus:     
+    uses: amikshas/ActionTest1/.github/workflows/main.yml@main
  
  
      
