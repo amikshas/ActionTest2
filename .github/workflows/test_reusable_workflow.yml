@@ -10,7 +10,7 @@ jobs:
     steps:
      - name:  Build nexus container
        id:  nexus
-       uses: amikshas/ActionTest2@main
+       uses: amikshas/ActionTest1@main
  
  
      
