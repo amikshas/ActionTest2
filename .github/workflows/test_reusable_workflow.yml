@@ -6,7 +6,7 @@ on:
 
 jobs:    
  test_caller_job:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     steps:
      - name:  Build nexus container
        id:  nexus
