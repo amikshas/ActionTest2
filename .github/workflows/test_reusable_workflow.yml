@@ -4,20 +4,13 @@ name: Reusable Workflow user
 on: 
    workflow_dispatch:
 
-
-#jobs:
- # call-workflow-passing-data:
-  #  uses: amiksha-thakkar_finastra/finastra-actions/deploy-nexus-action-test/.github/workflows/nexus_ci.yml@main
 jobs:    
  test_caller_job:
     runs-on: ubuntu-latest
     steps:
-     - uses: actions/checkout@v2
-     - name: Run a one-line script
-       run: echo Hello, world! 
-      
- nexus:     
-    uses: amikshas/ActionTest1@main
+     - name:  Build nexus container
+       id:  nexus
+       uses: amikshas/ActionTest2@main
  
  
      
