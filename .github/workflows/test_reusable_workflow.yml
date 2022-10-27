@@ -17,7 +17,7 @@ jobs:
        run: echo Hello, world! 
       
  nexus:     
-    uses: amikshas/ActionTest1/.github/workflows/main.yml@main
+    uses: amikshas/ActionTest1@main
  
  
      
