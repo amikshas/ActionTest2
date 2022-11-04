@@ -10,8 +10,8 @@ jobs:
     steps:
      - name:  Build nexus container
        id:  nexus
-       #uses: amikshas/ActionTest1@main
-       uses: amikshas/ActionTest1/.github/workflows/main.yml@main
+       uses: amikshas/ActionTest1@main
+       
  
  
      
